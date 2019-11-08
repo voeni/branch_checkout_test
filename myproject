@@ -1,0 +1,4 @@
+case class Employee(
+                     id: Option[Long], // ID == UserID from UserTable
+                     groupId: Long,
+                     )
